@@ -13,7 +13,7 @@ Professional README Generator
 
 ## Contribution Guidelines
 * This is a final product, that is ready to be use.
-* [Professional README Page Ressources](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+* [Professional README Page Ressources](https://github.com/MiguelJerome/Professionnal-Readme09)
 
 ## Test Instructions
 * This Professional Readme Generator works and is ready to be use.
