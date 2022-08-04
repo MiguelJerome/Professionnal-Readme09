@@ -1,39 +1,25 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-//function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-//function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-//function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-const generateMarkdown = (data) => {
-  return `# Project Title
-${data.title}
+# Project Title
+Miguel First Node Readme Project
 
 ## Description
-* ${data.description}
+* create autominc Readme file markdown file
 
 ## Installation instructions
-* ${data.installation}
+* download inquirer
 
 ## Usage Information
-* ${data.usageInfo}
+* use personal usage or professional
 
 ## Contribution Guidelines
-* ${data.guidelines}
+* read my readme file on github
 
 ## Test Instructions
-* ${data.instructions}
+* no test
 
 ## License
 MIT License
 
-Copyright (c) [${data.licenseYearInput}] [${data.licenseCreatorNameInput}]
+Copyright (c) [2022] [Miguel Jerome]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -54,9 +40,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Questions
-* [${data.gitHubUsername}](https://github.com/${data.gitHubUsername}/)
-* [Contact Us](mailto:${data.email})
-* How to reach me : ${data.reachMeQuestion}
+* [MiguelJerome](https://github.com/MiguelJerome/)
+* [Contact Us](mailto:2001326@collegelacite.ca)
+* How to reach me : contact me by email
 
 ## Table of Contents
 * [Project Title](#Project-Title)
@@ -70,7 +56,3 @@ SOFTWARE.
 
 
 
-`;
-};
-
-module.exports = generateMarkdown;
