@@ -2,16 +2,16 @@
 const fs = require('fs');
 
 const inquirer = require('inquirer');
-const { title } = require('process');
-const generatePage = require('./src/page-template.js');
+//const { title } = require('process');
+//const generatePage = require('./src/page-template.js');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-const { writeFile, copyFile } = require('./utils/generateMarkdown');
+//const { writeFile, copyFile } = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-const questions = [];
+//const questions = [];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(fileName, data) {}
 
 
 
@@ -28,7 +28,6 @@ promptProject("new read me file")
     return generateMarkdown(portfolioData);
 
   });
-  
 };
     
 const promptProject = portfolioData => {
@@ -124,10 +123,30 @@ return inquirer
           }
       },
       {
-        type: 'list',
-        name: 'license',
-        message: 'Please choose the license for the application',
-        choices: ['email', 'phone', 'telekinesis']
+        type: 'input',
+        name: 'licenseYearInput',
+        message: 'What is the project license year?',
+        validate: licenseYearInput => {
+            if (licenseYearInput) {
+              return true;
+            } else {
+              console.log('Please enter project license year!');
+              return false;
+            }
+          }
+      },
+      {
+        type: 'input',
+        name: 'licenseCreatorNameInput',
+        message: 'What is the project Creator username?',
+        validate: licenseCreatorNameInput => {
+            if (licenseCreatorNameInput) {
+              return true;
+            } else {
+              console.log('Please enter the project Creator username!');
+              return false;
+            }
+          }
       },
       {
         type: 'input',
