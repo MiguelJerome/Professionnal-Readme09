@@ -5,7 +5,7 @@ Professional README Generator
 * This is a Professional README Generator. You can create a real reame.md file by answering questions. 
 
 ## Installation instructions
-![Inquirer](../potential-enigma/Develop/images/ImportantInquirer.png) 
+![Inquirer](./images/ImportantInquirer.png) 
 * [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 ## Usage Information
